@@ -5,20 +5,20 @@ We've seen many different styles of form management by now -- simple to complex.
 
 ## Set Up The Project
 
-- [ ] Start off by installing a blank React app by running `npx create-react-app <app-name> --use-npm`.
-- [ ] Using `npm`, add the following as dependencies inside your React app:
+- [x] Start off by installing a blank React app by running `npx create-react-app <app-name> --use-npm`.
+- [x] Using `npm`, add the following as dependencies inside your React app:
   - `formik`
   - `yup`
   - `axios`
-- [ ] Create a component file called `Form.js`, import it into your `App.js` file, and place the component in your JSX there.
+- [x] Create a component file called `Form.js`, import it into your `App.js` file, and place the component in your JSX there.
 
 ## STEP 1 - Create Your Formik Form
 
 We want to create a form to onboard a new user to our system. We need _at least_ the following pieces of information about our new user:
 
-- [ ] Name
-- [ ] Email
-- [ ] Password
+- [x] Name
+- [x] Email
+- [x] Password
 - [ ] Terms of Service (checkbox)
 - [ ] A Submit button to send our form data to the server.
 
@@ -53,3 +53,6 @@ The following are stretch goals that you should attempt _after_ you meet MVP for
 - [ ] Implement a dropdown menu in your Formik form. Add a `role` value to your Formik HOC and add a dropdown with different roles for your users.
 - [ ] Create 3 new inputs inside your Formik form of your choice along with corresponding validation and error messaging
 - [ ] Add to your existing handling so that, if a user inputs their email as `waffle@syrup.com`, they receive an error message in their form that says _"That email is already taken."_
+
+
+((((test commit))))
